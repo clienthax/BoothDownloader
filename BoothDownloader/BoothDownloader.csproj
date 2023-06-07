@@ -1,24 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
-    <PropertyGroup>
-        <OutputType>Exe</OutputType>
-        <TargetFramework>net6.0</TargetFramework>
-        <RootNamespace>BoothDownloader</RootNamespace>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-        <AssemblyVersion>7.0</AssemblyVersion>
-        <FileVersion>7.0</FileVersion>
-        <PackageVersion>7.0.0</PackageVersion>
-        <AssemblyName>BoothDownloader</AssemblyName>
-        <PackageId>BoothDownloader</PackageId>
-        <Authors>BoothDownloader</Authors>
-        <ApplicationIcon>Icon\store-logo-booth.ico</ApplicationIcon>
-        <IsPackable>false</IsPackable>
-    </PropertyGroup>
-
-    <ItemGroup>
-      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-      <PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
-    </ItemGroup>
-
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>BoothDownloader</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyVersion>7.0</AssemblyVersion>
+    <FileVersion>7.0</FileVersion>
+    <PackageVersion>7.0.0</PackageVersion>
+    <AssemblyName>BoothDownloader</AssemblyName>
+    <PackageId>BoothDownloader</PackageId>
+    <Authors>BoothDownloader</Authors>
+    <ApplicationIcon>Icon\store-logo-booth.ico</ApplicationIcon>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
 </Project>
